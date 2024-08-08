@@ -8,7 +8,7 @@
     "start": "nodemon backend/index.js",
     "prod": "node backend/index.js",
     "test": "mocha",
-    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend && npm start"
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "keywords": [],
   "author": "hareesh dhruva",
